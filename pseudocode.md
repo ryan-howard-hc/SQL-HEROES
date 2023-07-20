@@ -27,3 +27,31 @@ Wont haves:
 
 
 # Procedural
+1. Connect to the database using Python and PostgreSQL
+2. Follow the MoSCoW and CRUD(create,read,update,delete)to implement the desired tables and data for usage
+
+
+# FUNCTIONAL
+```
+C: def create_heroes_table():
+        create_table_query = """
+        SELECT * from heroes(
+            id int [pk]
+            name VARCHAR
+            about_me VARCHAR
+            biography text
+        );"""
+
+   def create_heroes():
+        name = input("Enter name: ")
+        friend = input("Enter friend name: ")
+        insert_query = f"INSERT INTO superheroes (name, friend) VALUES ('{name}', '{friend}');"
+        cursor.execute(insert_query)
+        connection.commit()
+        print (f"{name} added to the superhero list with {friend} as a friend!")
+```
+R: 
+```
+    execute_query("Select name, power, friends FROM heroes;")
+```
+U:
