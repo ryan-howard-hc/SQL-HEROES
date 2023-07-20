@@ -1,4 +1,4 @@
-from connection import execute_query, create_connection
+from database.connection import execute_query, create_connection
 
 def create_hero(name, about_me, biography):
     query = """
