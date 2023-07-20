@@ -1,3 +1,4 @@
+import psycopg2
 from psycopg2 import connect, OperationalError
 
 def create_connection(db_name, db_user, db_password, db_host = "localhost", db_port = "5432"):
@@ -28,3 +29,4 @@ def execute_query(query, params=None):
         return cursor
     except OSError as e:
         print(f"The error '{e}' occurred or the hero name is already taken")
+        
