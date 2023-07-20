@@ -55,3 +55,22 @@ R:
     execute_query("Select name, power, friends FROM heroes;")
 ```
 U:
+```
+    def add_hero():
+        name = input("Enter superhero's name: ")
+        friend = input("Enter superhero's friend's name: ")
+        insert_query = f"INSERT INTO superheroes (name, friend) VALUES ('{name}', '{friend}');"
+        cursor.execute(insert_query)
+        connection.commit()
+        print(f"{name} added to the superhero list with {friend} as a friend!")
+    
+```
+D:
+```
+    def delete_hero():
+        name = input("Enter superhero's name to delete: ")
+        delete_query = f"DELETE FROM superheroes WHERE name = '{name}';"
+        cursor.execute(delete_query)
+        connection.commit()
+        print(f"{name} has been removed from the superhero list!")
+```
