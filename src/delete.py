@@ -1,3 +1,6 @@
+from database.connection import execute_query, create_connection
+
+
 ##DELETE CHARACTER
 
 def delete_hero(name, about_me, biography):
