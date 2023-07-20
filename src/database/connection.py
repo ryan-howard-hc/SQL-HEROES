@@ -25,8 +25,8 @@ def execute_query(query, params=None):
         cursor.execute(query, params)
         connection.commit()
         print("Query executed successfully")
-        connection.close()
         return cursor
     except OSError as e:
         print(f"The error '{e}' occurred or the hero name is already taken")
-        
+        # raise connection.close() RAISE EXCEPTION WORKS, but dont know why
+        return connection.close()  #so far everything works without connection.close, but i added it in case
