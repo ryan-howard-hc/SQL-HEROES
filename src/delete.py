@@ -3,9 +3,13 @@ from database.connection import execute_query, create_connection
 
 ##DELETE CHARACTER
 
-def delete_hero(name, about_me, biography):
+def delete_hero():
+    name = input("Which hero would you like to delete: ")
     query = """
         DELETE FROM heroes
-        WHERE name, about_me, biography = (%s, %s, %s)
+        WHERE name = %s
     """
-    execute_query(query,(name, about_me, biography))
+    execute_query(query,(name,))
+    print(f"{name} BANISHED!")
+    
+delete_hero()
