@@ -1,7 +1,5 @@
 from database.connection import execute_query, create_connection
 
-##CREATE CHARACTER
-
 def create_hero(name, about_me, biography):
     name = input ("Enter Name: ")
     about_me = input ("Enter friend name: ")

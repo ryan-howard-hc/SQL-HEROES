@@ -1,8 +1,5 @@
 from database.connection import execute_query, create_connection
 
-
-##DELETE CHARACTER
-
 def delete_hero():
     name = input("Which hero would you like to delete: ")
     query = """
