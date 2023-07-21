@@ -6,8 +6,8 @@ def update_hero(name, about_me, biography):
     biography = input ("Updated origin: ")
     query = """
     UPDATE heroes
-    SET about_me =%s, biography=%s
-    WHERE name =%s
+    SET about_me = %s, biography= %s
+    WHERE name = %s
     """
     execute_query(query,(name, about_me, biography))
     print(f"{name} UPDATED!")
