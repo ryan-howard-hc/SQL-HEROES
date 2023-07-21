@@ -11,4 +11,5 @@ def create_hero(name, about_me, biography):
     execute_query(query,(name, about_me, biography))
     print(f"{name} CREATED!")
     
-create_hero("", "" , "")
+# create_hero("MadDog Ryan", "Daylight as a street magician, Moonlight as a mad pussycat" , "Became mad pussycat through cat scratch fever")
+create_hero("","","")
