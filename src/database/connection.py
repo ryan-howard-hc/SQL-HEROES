@@ -1,4 +1,5 @@
 import psycopg2
+
 from psycopg2 import connect, OperationalError
 
 def create_connection(db_name, db_user, db_password, db_host = "localhost", db_port = "5432"):
