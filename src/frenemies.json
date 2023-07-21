@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "hero1_id": 1,
+    "hero2_id": 5,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 2,
+    "hero1_id": 5,
+    "hero2_id": 1,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 3,
+    "hero1_id": 5,
+    "hero2_id": 3,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 4,
+    "hero1_id": 4,
+    "hero2_id": 1,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 5,
+    "hero1_id": 4,
+    "hero2_id": 5,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 6,
+    "hero1_id": 4,
+    "hero2_id": 3,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 7,
+    "hero1_id": 4,
+    "hero2_id": 2,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 8,
+    "hero1_id": 3,
+    "hero2_id": 1,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 9,
+    "hero1_id": 3,
+    "hero2_id": 5,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 10,
+    "hero1_id": 3,
+    "hero2_id": 2,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 11,
+    "hero1_id": 2,
+    "hero2_id": 1,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 12,
+    "hero1_id": 2,
+    "hero2_id": 3,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 13,
+    "hero1_id": 6,
+    "hero2_id": 1,
+    "relationship_type_id": 1
+  },
+  {
+    "id": 14,
+    "hero1_id": 6,
+    "hero2_id": 5,
+    "relationship_type_id": 2
+  },
+  {
+    "id": 15,
+    "hero1_id": 6,
+    "hero2_id": 2,
+    "relationship_type_id": 1
+  }
+]
