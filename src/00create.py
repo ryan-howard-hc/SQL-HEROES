@@ -15,4 +15,3 @@ def create_hero(name, about_me, biography, likes, dislikes):
     
 # create_hero("MadDog Ryan", "Daylight as a street magician, Moonlight as a mad pussycat" , "Became mad pussycat through cat scratch fever")
 create_hero("","","","","")
-
