@@ -1,6 +1,6 @@
 from database.connection import execute_query, create_connection
 
-def update_hero(name, about_me, biography):
+def update_hero(name, about_me, biography,):
     name = input ("Who's evolving?: ")
     about_me = input ("Life changing moment?: ")
     biography = input ("Updated origin: ")
